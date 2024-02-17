@@ -1,0 +1,156 @@
+[2023-11-03 22:05:18] [ INFO ] [PacienteDAOH2:153] iniciando las operaciones de : buscado por email jorgito@jorgito.com
+[2023-11-03 22:05:18] [ ERROR] [PacienteDAOH2:170] org.h2.Driver
+[2023-11-03 22:10:32] [ INFO ] [PacienteDAOH2:153] iniciando las operaciones de : buscado por email jorgito@jorgito.com
+[2023-11-03 22:10:32] [ ERROR] [PacienteDAOH2:170] org.h2.Driver
+[2023-11-03 22:11:17] [ INFO ] [PacienteDAOH2:153] iniciando las operaciones de : buscado por email jorgito@jorgito.com
+[2023-11-03 22:11:17] [ ERROR] [PacienteDAOH2:170] org.h2.Driver
+[2023-11-03 22:13:59] [ WARN ] [BD:31] org.h2.Driver
+[2023-11-03 22:15:26] [ WARN ] [BD:31] Versión del archivo de base de datos no soportada ó encabezado de archivo invalido en archivo "C:/Users/DH/C21023ClinicaOdontologica.mv.db"
+Unsupported database file version or invalid file header in file "C:/Users/DH/C21023ClinicaOdontologica.mv.db" [90048-224]
+[2023-11-03 22:16:12] [ WARN ] [BD:31] La cantidad de columnas no coincide
+Column count does not match; SQL statement:
+INSERT INTO PACIENTES (NOMBRE, APELLIDO, CEDULA, FECHA_INGRESO, DOMICILIO_ID) VALUES('Jorgito','Pereyra','11111','2023-10-27','1','jorgito@jorgito.com'),('Paola','Viloria','22222','2023-10-15','2','paola@paola.com'),('Ignacio','Freilij','33333','2023-10-20','3'); INSERT INTO DOMICILIOS(CALLE, NUMERO, LOCALIDAD, PROVINCIA) VALUES('Siempre viva','742','Sprinfield','Usa'),('Av.Colon','1600','Cordoba','Cordoba'),('Av. 9 de Julio','1200','Caba','Bs As') [21002-214]
+[2023-11-03 22:17:35] [ WARN ] [BD:31] La cantidad de columnas no coincide
+Column count does not match; SQL statement:
+INSERT INTO PACIENTES (NOMBRE, APELLIDO, CEDULA, FECHA_INGRESO, DOMICILIO_ID, EMAIL) VALUES('Jorgito','Pereyra','11111','2023-10-27','1','jorgito@jorgito.com'),('Paola','Viloria','22222','2023-10-15','2','paola@paola.com'),('Ignacio','Freilij','33333','2023-10-20','3'); INSERT INTO DOMICILIOS(CALLE, NUMERO, LOCALIDAD, PROVINCIA) VALUES('Siempre viva','742','Sprinfield','Usa'),('Av.Colon','1600','Cordoba','Cordoba'),('Av. 9 de Julio','1200','Caba','Bs As') [21002-214]
+[2023-11-03 22:18:38] [ INFO ] [BD:28] datos cargados con exito
+[2023-11-03 22:18:55] [ INFO ] [PacienteDAOH2:153] iniciando las operaciones de : buscado por email jorgito@jorgito.com
+[2023-11-03 22:18:55] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 1
+[2023-11-03 22:19:15] [ INFO ] [PacienteDAOH2:153] iniciando las operaciones de : buscado por email ignacio@gmail.com
+[2023-11-03 22:19:15] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 3
+[2023-11-07 19:56:01] [ INFO ] [BD:28] datos cargados con exito
+[2023-11-07 19:59:33] [ INFO ] [BD:28] datos cargados con exito
+[2023-11-07 20:01:05] [ INFO ] [PacienteDAOH2:20] guardando paciente
+[2023-11-07 20:01:05] [ INFO ] [PacienteDAOH2:38]  paciente guardado
+[2023-11-07 20:02:18] [ INFO ] [PacienteDAOH2:55] iniciando las operaciones de : buscado por id 30
+[2023-11-07 20:06:46] [ INFO ] [PacienteDAOH2:55] iniciando las operaciones de : buscado por id 4
+[2023-11-07 20:06:46] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 4
+[2023-11-07 20:06:46] [ INFO ] [PacienteDAOH2:103] iniciando las operaciones de : actualizado de un paciente 
+[2023-11-07 20:07:20] [ INFO ] [PacienteDAOH2:55] iniciando las operaciones de : buscado por id 1
+[2023-11-07 20:07:20] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 1
+[2023-11-07 20:07:36] [ INFO ] [PacienteDAOH2:55] iniciando las operaciones de : buscado por id 4
+[2023-11-07 20:07:36] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 1
+[2023-11-07 21:58:54] [ INFO ] [BD:30] datos cargados con exito
+[2023-11-07 22:01:23] [ INFO ] [OdontologoDAOH2:19] iniciando las operaciones de : guardado odontologo:JorgitoApellido: Fuentes Bazan Matricula :  MP66
+[2023-11-07 22:01:23] [ ERROR] [OdontologoDAOH2:34] Error de Sintaxis en sentencia SQL "INSERT INTO ODONTOLOGOS (MATRICULA, NOMBRE, APELLIDO,[*]) VALUES(?,?,?)"; se esperaba "identifier"
+Syntax error in SQL statement "INSERT INTO ODONTOLOGOS (MATRICULA, NOMBRE, APELLIDO,[*]) VALUES(?,?,?)"; expected "identifier"; SQL statement:
+INSERT INTO ODONTOLOGOS (MATRICULA, NOMBRE, APELLIDO,) VALUES(?,?,?) [42001-214]
+[2023-11-07 22:03:15] [ INFO ] [BD:30] datos cargados con exito
+[2023-11-07 22:03:33] [ INFO ] [OdontologoDAOH2:19] iniciando las operaciones de : guardado odontologo:JorgitoApellido: Fuentes Bazan Matricula :  MP66
+[2023-11-10 19:41:46] [ INFO ] [BD:30] datos cargados con exito
+[2023-11-10 19:56:15] [ INFO ] [BD:30] datos cargados con exito
+[2023-11-10 19:57:00] [ INFO ] [OdontologoDAOH2:20] iniciando las operaciones de : guardado odontologo:Jorge AgustinApellido: Pereyra Matricula :  123
+[2023-11-10 20:20:37] [ INFO ] [BD:30] datos cargados con exito
+[2023-11-10 20:31:34] [ INFO ] [BD:30] datos cargados con exito
+[2023-11-10 20:32:06] [ INFO ] [OdontologoDAOH2:20] iniciando las operaciones de : guardado odontologo:ffdsfdsasdfsfdaApellido: sgfdsdafsfadasfd Matricula :  fsadfsadsfd
+[2023-11-10 20:38:02] [ INFO ] [BD:30] datos cargados con exito
+[2023-11-10 20:40:28] [ INFO ] [BD:30] datos cargados con exito
+[2023-11-10 20:43:26] [ INFO ] [BD:30] datos cargados con exito
+[2023-11-10 20:43:48] [ INFO ] [BD:30] datos cargados con exito
+[2023-11-10 20:44:11] [ INFO ] [BD:30] datos cargados con exito
+[2023-11-10 20:50:15] [ INFO ] [BD:30] datos cargados con exito
+[2023-11-10 20:50:22] [ INFO ] [OdontologoDAOH2:122] iniciando las operaciones de : Buscado de todos los odontologos 
+[2023-11-10 21:03:44] [ INFO ] [BD:30] datos cargados con exito
+[2023-11-10 21:06:47] [ INFO ] [BD:30] datos cargados con exito
+[2023-11-10 21:08:05] [ INFO ] [BD:30] datos cargados con exito
+[2023-11-10 21:08:43] [ INFO ] [BD:30] datos cargados con exito
+[2023-11-10 21:13:24] [ INFO ] [OdontologoDAOH2:122] iniciando las operaciones de : Buscado de todos los odontologos 
+[2023-11-10 21:16:12] [ INFO ] [BD:30] datos cargados con exito
+[2023-11-10 21:20:01] [ INFO ] [OdontologoDAOH2:122] iniciando las operaciones de : Buscado de todos los odontologos 
+[2023-11-10 21:20:55] [ INFO ] [BD:30] datos cargados con exito
+[2023-11-10 21:21:00] [ INFO ] [OdontologoDAOH2:122] iniciando las operaciones de : Buscado de todos los odontologos 
+[2023-11-10 21:34:30] [ INFO ] [OdontologoDAOH2:122] iniciando las operaciones de : Buscado de todos los odontologos 
+[2023-11-10 21:35:27] [ INFO ] [BD:30] datos cargados con exito
+[2023-11-10 21:36:16] [ INFO ] [BD:30] datos cargados con exito
+[2023-11-10 21:36:20] [ INFO ] [OdontologoDAOH2:122] iniciando las operaciones de : Buscado de todos los odontologos 
+[2023-11-10 21:37:13] [ INFO ] [BD:30] datos cargados con exito
+[2023-11-10 21:37:15] [ INFO ] [OdontologoDAOH2:122] iniciando las operaciones de : Buscado de todos los odontologos 
+[2023-11-10 21:39:57] [ INFO ] [BD:30] datos cargados con exito
+[2023-11-10 21:40:07] [ INFO ] [OdontologoDAOH2:122] iniciando las operaciones de : Buscado de todos los odontologos 
+[2023-11-10 21:40:17] [ INFO ] [OdontologoDAOH2:122] iniciando las operaciones de : Buscado de todos los odontologos 
+[2023-11-10 21:40:24] [ INFO ] [OdontologoDAOH2:122] iniciando las operaciones de : Buscado de todos los odontologos 
+[2023-11-10 21:43:16] [ INFO ] [BD:30] datos cargados con exito
+[2023-11-10 21:43:20] [ INFO ] [OdontologoDAOH2:122] iniciando las operaciones de : Buscado de todos los odontologos 
+[2023-11-10 21:43:25] [ INFO ] [OdontologoDAOH2:122] iniciando las operaciones de : Buscado de todos los odontologos 
+[2023-11-10 21:43:39] [ INFO ] [OdontologoDAOH2:122] iniciando las operaciones de : Buscado de todos los odontologos 
+[2023-11-10 21:44:15] [ INFO ] [BD:30] datos cargados con exito
+[2023-11-10 21:44:17] [ INFO ] [OdontologoDAOH2:122] iniciando las operaciones de : Buscado de todos los odontologos 
+[2023-11-10 21:44:19] [ INFO ] [OdontologoDAOH2:122] iniciando las operaciones de : Buscado de todos los odontologos 
+[2023-11-10 21:44:46] [ INFO ] [BD:30] datos cargados con exito
+[2023-11-10 21:44:48] [ INFO ] [OdontologoDAOH2:122] iniciando las operaciones de : Buscado de todos los odontologos 
+[2023-11-10 21:46:16] [ INFO ] [OdontologoDAOH2:20] iniciando las operaciones de : guardado odontologo:Facundo Apellido: Allende Matricula :  fsadfsadsfd
+[2023-11-10 21:46:18] [ INFO ] [OdontologoDAOH2:122] iniciando las operaciones de : Buscado de todos los odontologos 
+[2023-11-10 22:42:24] [ INFO ] [BD:32] datos cargados con exito
+[2023-11-10 22:42:31] [ INFO ] [OdontologoDAOH2:23] iniciando las operaciones de : guardado odontologo:JoseApellido: Lopez Matricula :  MP10
+[2023-11-10 22:42:37] [ INFO ] [OdontologoDAOH2:51] iniciando las operaciones de : buscado por ID 1
+[2023-11-10 22:42:42] [ INFO ] [OdontologoDAOH2:51] iniciando las operaciones de : buscado por ID 4
+[2023-11-10 22:42:48] [ INFO ] [OdontologoDAOH2:126] iniciando las operaciones de : Buscado de todos los odontologos 
+[2023-11-10 22:43:19] [ INFO ] [OdontologoDAOH2:51] iniciando las operaciones de : buscado por ID 4
+[2023-11-10 22:43:19] [ INFO ] [OdontologoDAOH2:101] iniciando las operaciones de : actualizar un odontologo 
+[2023-11-10 22:43:19] [ ERROR] [OdontologoDAOH2:113] Parametro "#5" no está fijado
+Parameter "#5" is not set; SQL statement:
+UPDATE ODONTOLOGOS SET MATRICULA=?, NOMBRE=?, APELLIDO=?, ID=? WHERE ID =? [90012-214]
+[2023-11-10 22:43:47] [ INFO ] [OdontologoDAOH2:51] iniciando las operaciones de : buscado por ID 4
+[2023-11-10 22:43:47] [ INFO ] [OdontologoDAOH2:101] iniciando las operaciones de : actualizar un odontologo 
+[2023-11-10 22:43:47] [ ERROR] [OdontologoDAOH2:113] Parametro "#5" no está fijado
+Parameter "#5" is not set; SQL statement:
+UPDATE ODONTOLOGOS SET MATRICULA=?, NOMBRE=?, APELLIDO=?, ID=? WHERE ID =? [90012-214]
+[2023-11-10 22:44:07] [ INFO ] [OdontologoDAOH2:79] iniciando las operaciones de : eliminado de un odontologo con ID:  1
+[2023-11-10 22:44:07] [ ERROR] [OdontologoDAOH2:88] Error de Sintaxis en sentencia SQL "DELETE [*]* FROM ODONTOLOGOS WHERE ID=?"; se esperaba "identifier"
+Syntax error in SQL statement "DELETE [*]* FROM ODONTOLOGOS WHERE ID=?"; expected "identifier"; SQL statement:
+DELETE * FROM ODONTOLOGOS WHERE ID=? [42001-214]
+[2023-11-10 22:45:51] [ INFO ] [BD:32] datos cargados con exito
+[2023-11-10 22:45:56] [ INFO ] [OdontologoDAOH2:23] iniciando las operaciones de : guardado odontologo:JoseApellido: Lopez Matricula :  MP10
+[2023-11-10 22:45:58] [ INFO ] [OdontologoDAOH2:51] iniciando las operaciones de : buscado por ID 4
+[2023-11-10 22:45:58] [ INFO ] [OdontologoDAOH2:101] iniciando las operaciones de : actualizar un odontologo 
+[2023-11-10 22:45:58] [ ERROR] [OdontologoDAOH2:113] Error de Sintaxis en sentencia SQL "UPDATE ODONTOLOGOS SET MATRICULA=?, NOMBRE=?, APELLIDO=?, [*]WHERE ID =?"; se esperaba "identifier"
+Syntax error in SQL statement "UPDATE ODONTOLOGOS SET MATRICULA=?, NOMBRE=?, APELLIDO=?, [*]WHERE ID =?"; expected "identifier"; SQL statement:
+UPDATE ODONTOLOGOS SET MATRICULA=?, NOMBRE=?, APELLIDO=?, WHERE ID =? [42001-214]
+[2023-11-10 22:46:10] [ INFO ] [OdontologoDAOH2:51] iniciando las operaciones de : buscado por ID 4
+[2023-11-10 22:46:10] [ INFO ] [OdontologoDAOH2:101] iniciando las operaciones de : actualizar un odontologo 
+[2023-11-10 22:46:10] [ ERROR] [OdontologoDAOH2:113] Error de Sintaxis en sentencia SQL "UPDATE ODONTOLOGOS SET MATRICULA=?, NOMBRE=?, APELLIDO=?, [*]WHERE ID =?"; se esperaba "identifier"
+Syntax error in SQL statement "UPDATE ODONTOLOGOS SET MATRICULA=?, NOMBRE=?, APELLIDO=?, [*]WHERE ID =?"; expected "identifier"; SQL statement:
+UPDATE ODONTOLOGOS SET MATRICULA=?, NOMBRE=?, APELLIDO=?, WHERE ID =? [42001-214]
+[2023-11-10 22:46:15] [ INFO ] [OdontologoDAOH2:126] iniciando las operaciones de : Buscado de todos los odontologos 
+[2023-11-10 22:46:19] [ INFO ] [OdontologoDAOH2:51] iniciando las operaciones de : buscado por ID 4
+[2023-11-10 22:46:19] [ INFO ] [OdontologoDAOH2:101] iniciando las operaciones de : actualizar un odontologo 
+[2023-11-10 22:46:19] [ ERROR] [OdontologoDAOH2:113] Error de Sintaxis en sentencia SQL "UPDATE ODONTOLOGOS SET MATRICULA=?, NOMBRE=?, APELLIDO=?, [*]WHERE ID =?"; se esperaba "identifier"
+Syntax error in SQL statement "UPDATE ODONTOLOGOS SET MATRICULA=?, NOMBRE=?, APELLIDO=?, [*]WHERE ID =?"; expected "identifier"; SQL statement:
+UPDATE ODONTOLOGOS SET MATRICULA=?, NOMBRE=?, APELLIDO=?, WHERE ID =? [42001-214]
+[2023-11-10 22:49:53] [ INFO ] [OdontologoDAOH2:126] iniciando las operaciones de : Buscado de todos los odontologos 
+[2023-11-10 22:49:58] [ INFO ] [OdontologoDAOH2:51] iniciando las operaciones de : buscado por ID 4
+[2023-11-10 22:49:58] [ INFO ] [OdontologoDAOH2:101] iniciando las operaciones de : actualizar un odontologo 
+[2023-11-10 22:49:58] [ ERROR] [OdontologoDAOH2:113] Error de Sintaxis en sentencia SQL "UPDATE ODONTOLOGOS SET MATRICULA=?, NOMBRE=?, APELLIDO=?, [*]WHERE ID =?"; se esperaba "identifier"
+Syntax error in SQL statement "UPDATE ODONTOLOGOS SET MATRICULA=?, NOMBRE=?, APELLIDO=?, [*]WHERE ID =?"; expected "identifier"; SQL statement:
+UPDATE ODONTOLOGOS SET MATRICULA=?, NOMBRE=?, APELLIDO=?, WHERE ID =? [42001-214]
+[2023-11-10 22:50:01] [ INFO ] [OdontologoDAOH2:126] iniciando las operaciones de : Buscado de todos los odontologos 
+[2023-11-10 22:50:09] [ INFO ] [OdontologoDAOH2:79] iniciando las operaciones de : eliminado de un odontologo con ID:  1
+[2023-11-10 22:50:09] [ ERROR] [OdontologoDAOH2:88] Error de Sintaxis en sentencia SQL "DELETE [*]* FROM ODONTOLOGOS WHERE ID=?"; se esperaba "identifier"
+Syntax error in SQL statement "DELETE [*]* FROM ODONTOLOGOS WHERE ID=?"; expected "identifier"; SQL statement:
+DELETE * FROM ODONTOLOGOS WHERE ID=? [42001-214]
+[2023-11-10 22:50:12] [ INFO ] [OdontologoDAOH2:126] iniciando las operaciones de : Buscado de todos los odontologos 
+[2023-11-10 22:52:57] [ INFO ] [BD:32] datos cargados con exito
+[2023-11-10 22:53:22] [ INFO ] [OdontologoDAOH2:23] iniciando las operaciones de : guardado odontologo:JoseApellido: Lopez Matricula :  MP10
+[2023-11-10 22:53:25] [ INFO ] [OdontologoDAOH2:51] iniciando las operaciones de : buscado por ID 4
+[2023-11-10 22:53:29] [ INFO ] [OdontologoDAOH2:126] iniciando las operaciones de : Buscado de todos los odontologos 
+[2023-11-10 22:53:33] [ INFO ] [OdontologoDAOH2:51] iniciando las operaciones de : buscado por ID 4
+[2023-11-10 22:53:33] [ INFO ] [OdontologoDAOH2:101] iniciando las operaciones de : actualizar un odontologo 
+[2023-11-10 22:53:38] [ INFO ] [OdontologoDAOH2:126] iniciando las operaciones de : Buscado de todos los odontologos 
+[2023-11-10 22:53:42] [ INFO ] [OdontologoDAOH2:79] iniciando las operaciones de : eliminado de un odontologo con ID:  1
+[2023-11-10 22:53:46] [ INFO ] [OdontologoDAOH2:126] iniciando las operaciones de : Buscado de todos los odontologos 
+[2023-11-14 17:18:12] [ INFO ] [BD:32] datos cargados con exito
+[2023-11-14 17:24:24] [ WARN ] [BD:35] La base de datos puede que ya esté siendo utilizada: "C:/Users/Facu/C21023ClinicaOdontologica.mv.db". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "C:/Users/Facu/C21023ClinicaOdontologica.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-214]
+[2023-11-14 17:24:55] [ INFO ] [BD:32] datos cargados con exito
+[2023-11-14 17:27:36] [ WARN ] [BD:35] La base de datos puede que ya esté siendo utilizada: "C:/Users/Facu/C21023ClinicaOdontologica.mv.db". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "C:/Users/Facu/C21023ClinicaOdontologica.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-214]
+[2023-11-14 17:28:02] [ INFO ] [BD:32] datos cargados con exito
+[2023-11-14 17:30:36] [ WARN ] [BD:35] La base de datos puede que ya esté siendo utilizada: "C:/Users/Facu/C21023ClinicaOdontologica.mv.db". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "C:/Users/Facu/C21023ClinicaOdontologica.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-214]
+[2023-11-14 17:30:44] [ INFO ] [BD:32] datos cargados con exito
+[2023-11-14 17:32:39] [ INFO ] [BD:32] datos cargados con exito
+[2023-11-14 17:33:21] [ INFO ] [BD:32] datos cargados con exito
+[2023-11-14 17:33:41] [ INFO ] [BD:32] datos cargados con exito
+[2023-11-14 17:34:00] [ INFO ] [BD:32] datos cargados con exito
+[2023-11-14 17:38:20] [ INFO ] [BD:32] datos cargados con exito
+[2023-11-14 17:39:17] [ INFO ] [BD:32] datos cargados con exito
